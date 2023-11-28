@@ -312,7 +312,7 @@ int main(void)
 
 |`stack`|stack memory에 추가된 `size` (bytes)|`variable`|heap memory에 추가된 `size` (bytes)|
 |:---:|:---:|:---:|:---:|
-|`0xe7`|4 or 8|testArr[3]|`sizeof(char) + sizeof(int) + sizeof(float)`<br>1 + 4 + 4 = 9|
+|`0xf7`|4 or 8|testArr[3]|`sizeof(char) + sizeof(int) + sizeof(float)`<br>1 + 4 + 4 = 9|
 |`0xfb`|4 or 8|testArr[2]|`sizeof(char) + sizeof(int) + sizeof(float)`<br>1 + 4 + 4 = 9|
 |`0xff`|4 or 8|testArr[1]|`sizeof(char) + sizeof(int) + sizeof(float)`<br>1 + 4 + 4 = 9|
 
