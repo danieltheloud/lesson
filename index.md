@@ -298,8 +298,8 @@ int main(void)
 
 |`stack`|stack memory에 추가된 `size` (bytes)|`variable`|
 |:---:|:---:|:---:|
-|`0xdd`|`sizeof(char) + sizeof(int) + sizeof(float)`<br>1 + 4 + 4 = 9|testArr[3]|
-|`0xee`|`sizeof(char) + sizeof(int) + sizeof(float)`<br>1 + 4 + 4 = 9|testArr[2]|
+|`0xe7`|`sizeof(char) + sizeof(int) + sizeof(float)`<br>1 + 4 + 4 = 9|testArr[3]|
+|`0xf3`|`sizeof(char) + sizeof(int) + sizeof(float)`<br>1 + 4 + 4 = 9|testArr[2]|
 |`0xff`|`sizeof(char) + sizeof(int) + sizeof(float)`<br>1 + 4 + 4 = 9|testArr[1]|
 
 > 실제로 `sizeof(testArr)`를 출력하면 `12`를 출력하는 것을 확인할 수 있을 것입니다.
