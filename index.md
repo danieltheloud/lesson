@@ -222,7 +222,7 @@ struct Test
 
 int main(void)
 {
-    // testArr 구조체를 원소로 갖는 배열 선언.
+    // Test 구조체를 원소로 갖는 배열 선언.
     struct Test testArr[3];
 
     for (int i = 0; i < (sizeof(testArr) / sizeof(testArr[0])); i++)
