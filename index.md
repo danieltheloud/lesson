@@ -6,10 +6,6 @@
 
 이 강의는 [`포인터가 필요한 이유`](#포인터가-필요한-이유)와 [`Java의 참조`](#java의-참조)라는 2가지의 대주제를 가지고 있습니다.
 
-<div style="background-color: white; border-radius: 0.375rem; position: fixed; bottom: 0; right: 0;">
-   <a href="#java의-학습자를-위한-c-언어의-포인터-이해">위로</a>
-</div>
-
 ---
 
 # 포인터가 필요한 이유?
